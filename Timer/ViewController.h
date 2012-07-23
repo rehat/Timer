@@ -9,8 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UILabel *timeElapsed;
-@property (weak, nonatomic) NSTimer *timer;
 @property (weak, nonatomic) IBOutlet UISlider *sliderTest;
 @property (weak, nonatomic) IBOutlet UILabel *followKnob;
 
